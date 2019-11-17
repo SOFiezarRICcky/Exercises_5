@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Form Registration</title>
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|Archivo+Narrow:400,700"
+		rel="stylesheet" type="text/css">
+	<link href="styles/style.css" rel="stylesheet" type="text/css" media="all" />
+
+</head>
+
+<body>
+	<div id="logo" class="container">
+		<h1><a href="#">FORM EXERCISE</a></h1>
+	</div>
+
+	<div id="page" class="container">
+		<div id="box1">
+			<h2 class="title"><a href="#">Member Registration Form</a></h2>
+			<div style="clear: both;">&nbsp;</div>
+			<div class="entry">
+				<p><strong>Fill out the registration form on the side with the correct data. All the fields that exist
+						in this form must be filled</strong></p>
+
+			</div>
+		</div>
+
+		<div id="box2">
+			<!-- BUILD FORM PENDAFTARAN START FROM HERE, INCLUDE FULLNAME,USERNAME,PASSWORD,GENDER,BIRTDATE,HOBY,ADDRESS AND SUBMIT BUTTON -->
+			<form action="#" id="form_registrasi">
+				<table cellspacing="20px">
+					<tr>
+						<td>Fullname</td>
+						<td>:</td>
+						<td><input type="text" id="fullname" name="fullname" placeholder="Please Inset FullName"></td>
+					</tr>
+					<tr>
+						<td>Username</td>
+						<td>:</td>
+						<td><input type="text" id="username" name="username" placeholder="Please Inset Username"></td>
+					</tr>
+					<tr>
+						<td>Password</td>
+						<td>:</td>
+						<td><input type="password" id="password" name="password" placeholder="Please Inset Password">
+						</td>
+					</tr>
+					<tr>
+						<td>Email</td>
+						<td>:</td>
+						<td><input type="email" id="email" name="email" placeholder="Please Inset Email"></td>
+					</tr>
+					<tr>
+						<td>Gender</td>
+						<td>:</td>
+						<td><input type="radio" id="gendermale" name="gender" value="male" checked>&nbsp; Male
+							&nbsp;&nbsp;&nbsp;
+							<input type="radio" id="genderfemale" name="gender" value="female">&nbsp; Female</td>
+					</tr>
+					<tr>
+						<td>Birt Date</td>
+						<td>:</td>
+						<td>
+							<select name="day" id="day">
+								<option value="">--Day--</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+							</select>
+							&nbsp;&nbsp;&nbsp;
+							<select name="month" id="month">
+								<option value="">--Month--</option>
+								<option value="1">Jan</option>
+								<option value="2">Feb</option>
+								<option value="3">Mar</option>
+								<option value="4">Apr</option>
+								<option value="5">Mei</option>
+								<option value="6">Jun</option>
+								<option value="7">Jul</option>
+							</select>
+							&nbsp;&nbsp;&nbsp;
+							<select name="year" id="year">
+								<option value="">--Year--</option>
+								<option value="2010">2010</option>
+								<option value="2011">2011</option>
+								<option value="2012">2012</option>
+								<option value="2013">2013</option>
+								<option value="2014">2014</option>
+								<option value="2015">2015</option>
+								<option value="2016">2016</option>
+								<option value="2017">2017</option>
+								<option value="2018">2018</option>
+								<option value="2019">2019</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>Hobby</td>
+						<td>:</td>
+						<td><input type="checkbox" name="sports" id="sports" value="sports">&nbsp;Sports
+							&nbsp;&nbsp;
+							<input type="checkbox" name="travel" id="travel" value="travel">&nbsp;Travel
+							&nbsp;&nbsp;
+							<input type="checkbox" name="culture" id="culture" value="culture">&nbsp;Culture
+							&nbsp;&nbsp; <br><br>
+							<input type="checkbox" name="cullinary" id="cullinary" value="cullinary">&nbsp;cullinary
+							&nbsp;&nbsp;
+							<input type="checkbox" name="shopping" id="shopping" value="shopping">&nbsp;Shopping
+							&nbsp;&nbsp;
+							<input type="checkbox" name="praying" id="praying" value="praying">&nbsp;Praying
+						</td>
+					</tr>
+					<tr>
+						<td valign="top">Address</td>
+						<td valign="top">:</td>
+						<td>
+							<textarea name="address" id="address"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td><input type="submit" value="Submit" id="submit" name="submit">
+							&nbsp;&nbsp;
+							<input type="reset" value="Reset" id="reset" name="reset"></td>
+					</tr>
+				</table>
+			</form>
+		</div>
+
+
+
+	</div>
+	<div id="footer" class="container">
+		<p>Copyright (c) 2013 Your Name </p>
+	</div>
+</body>
+
+</html>
